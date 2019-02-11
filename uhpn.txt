@@ -1,0 +1,55 @@
+Q: iu
+W: ia ua
+R: uan
+T: ue ve
+Y: ing uai
+U: sh
+I: ch
+O: uo
+P: un
+S: iong ong
+D: iang uang
+F: en
+G: eng
+H: ang
+J: an
+K: ao
+L: ai
+Z: ei
+X: ie
+C: iao
+V: zh ui
+B: ou
+N: in
+M: ian
+
+iu: Q
+ia: W
+ua: W
+uan: R
+ue: T
+ve: T
+ing: Y
+uai: Y
+sh: U
+ch: I
+uo: O
+un: P
+iong: S
+ong: S
+iang: D
+uang: D
+en: F
+eng: G
+ang: H
+an: J
+ao: K
+ai: L
+ei: Z
+ie: X
+iao: C
+zh: V
+ui: V
+ou: B
+in: N
+ian: M
