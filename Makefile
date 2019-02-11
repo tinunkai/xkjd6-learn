@@ -1,7 +1,7 @@
 all: main
 
 main:
-	venv/bin/python uhpn.py
+	venv/bin/python udpn.py
 
 init:
 	python3 -m venv venv
