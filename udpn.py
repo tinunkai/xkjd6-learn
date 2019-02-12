@@ -2,15 +2,6 @@ import random
 
 N = 50
 
-ans = { idx: False for idx in range(N) }
-
-def rights(ans):
-    tot = 0
-    for k, v in ans.items():
-        if v:
-            tot += 1
-    return tot
-
 table = {
     'iu': 'q',
     'ia': 'w',
@@ -45,25 +36,24 @@ table = {
 }
 
 def main():
-    idx = 0
+    tot = 0
 
-    while rights(ans) < N:
+    while tot < N:
         key = random.choice(list(table))
         print(key)
         guess = input()
         if guess == table[key]:
-            ans[idx] = True
-            print('Right!', rights(ans), end='')
+            tot += 1
+            print('Right!', tot, end='')
         else:
-            ans[idx] = False
-            print(table[key], rights(ans), end='')
-        idx = (idx + 1) % N
+            tot = 0
+            print(table[key], tot, end='')
 
         print('/%s' % N)
         print()
 
     print('Congratulations!!!')
-    print('你学会双拼了!!!')
+    print('你学会[自然]双拼了!!!')
 
 if __name__ == '__main__':
     main()
